@@ -30,13 +30,8 @@ For each of these, the current version was OSBot 2.5.83 ([download](http://osbot
 
 #### Running on Fresh Install
 
-```bash
+```
 $ bash update-osbot.sh
-```
-
-#### Result
-
-```
 Creating directory: /home/ozzy/OSBot
 Downloading from https://osbot.org/mvc/get to /home/ozzy/OSBot/osbot.jar...
 Checking downloaded version...
@@ -45,13 +40,8 @@ Downloaded: 2.5.83
 
 ### Running on Existing Up-to-date Install
 
-```bash
+```
 $ bash update-osbot.sh
-```
-
-#### Result
-
-```
 Checking version of /home/ozzy/OSBot/osbot.jar...
 Up-to-date: 2.5.83
 ```
@@ -60,13 +50,8 @@ Up-to-date: 2.5.83
 
 This command was run with OSBot 2.5.75 in `~/OSBot/osbot.jar`.
 
-```bash
+```
 $ bash update-osbot.sh
-```
-
-#### Result
-
-```
 Checking version of /home/ozzy/OSBot/osbot.jar...
 Out-of-date: 2.5.75
 Backing up /home/ozzy/OSBot/osbot.jar to /home/ozzy/OSBot/osbot.jar-backups/2.5.75.jar

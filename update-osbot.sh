@@ -1,8 +1,17 @@
 #!/bin/bash
 
-# Updates the file $1 to contain the latest OSBot jarfile
-# If not provided, assumes ~/OSBot/osbot.jar
-#  Usage: ./update-osbot.sh [ jarfile=osbot.jar ]
+# Updates the given jar file to contain the latest OSBot jarfile
+# If not provided, assumes ~/OSBot/osbot.jar and creates this directory.
+# Usage:  bash update-osbot.sh [jarfile=osbot.jar]
+
+# See readme.md for more details on this script.
+
+# Licensed under Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+# https://creativecommons.org/licenses/by-sa/4.0/
+
+# By agentcallooh - https://osbot.org/forum/profile/342261-agentcallooh/
+
+#####
 
 # The default path to the OSBot jar when not provided
 OSBOT_JAR_DEFAULT_PATH=~/OSBot/osbot.jar
