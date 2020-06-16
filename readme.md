@@ -2,7 +2,7 @@
 
 by [agentcallooh](https://osbot.org/forum/profile/342261-agentcallooh/)
 
-**[update-osbot.sh](update-osbot.sh)** is an easy-to-use bash script that updates the [OSBot](https://osbot.org) client, downloading new versions when necessary. Use it before running OSBot via its command-line interface (CLI) to ensure the client is up to date before you start it.
+**[update-osbot.sh](update-osbot.sh)** is an easy-to-use bash script that updates the [OSBot](https://osbot.org) client, downloading new versions when necessary. Use it before running OSBot via its command-line interface (CLI) to ensure the client is up to date before you start it. Additionally, it will back up old versions of OSBot.
 
 This script works out-of-the-box on most Linux distributions, such as Ubuntu. For Windows, you will need a bash interpretter, such Git BASH included with [gitforwindows](https://gitforwindows.org/#bash).
 
@@ -26,7 +26,7 @@ $ ./update-osbot.sh
 
 ### Examples
 
-For each of these, the current version was OSBot 2.5.83 ([download](http://osbot.org/devbuilds/osbot%202.5.75.jar)).
+For each of these, the current version is OSBot 2.5.83 ([download](http://osbot.org/devbuilds/osbot%202.5.75.jar)), and the current user is `ozzy`.
 
 #### Running on Fresh Install
 
@@ -38,7 +38,7 @@ Checking downloaded version...
 Downloaded: 2.5.83
 ```
 
-### Running on Existing Up-to-date Install
+#### Running on Existing Up-to-date Install
 
 ```
 $ bash update-osbot.sh
@@ -46,7 +46,7 @@ Checking version of /home/ozzy/OSBot/osbot.jar...
 Up-to-date: 2.5.83
 ```
 
-### Running on Existing Out-of-date Install
+#### Running on Existing Out-of-date Install
 
 This command was run with OSBot 2.5.75 in `~/OSBot/osbot.jar`.
 
